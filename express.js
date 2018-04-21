@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-app.listen(3013);
+app.listen(3000);
 app.use(express.static('public'));
 
 const response = (req,res) =>{
