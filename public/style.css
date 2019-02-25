@@ -4,7 +4,12 @@ body{
 	background-repeat:no-repeat;
 	background-position:-1500px -200px;
 	max-height: 150px;
+	overflow: scroll;
 }
+
+.container-fluid:not(.overflowing){
+	background-color: #000000;
+ }
 
 .navbar-brand{
 	float: left;
@@ -14,7 +19,6 @@ body{
 	font-size: 35px;
 	padding: 10px;
 	color: #FFF !important;
-
 }
 
 .carousel-caption{
@@ -150,4 +154,40 @@ nav div div{
 		background-color: #4db6ac;
 		border-radius: 0;
 	}
+}
+
+.about-text{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	height: 500px;
+	width: 500px;
+	padding: 10px;
+}
+
+.donate{
+	text-align: center;
+	color: white;
+}
+
+.titles{
+	float: left;
+	min-height: 55px;
+	padding: 0 15px 5px;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 30px;
+	padding: 10px;
+	color: #FFF !important;
+}
+
+.set-free{
+	margin-top: 200px;
+}
+
+.donate-div{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px;
+	margin-left: 300px;
+	margin-right: 300px;
+	top: 100px;
 }
